@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Conversión Alimenticia y Rendimiento a la Canal</title>
+    </head>
+    <body>
+        <div id="formulario">
+            <label for="alimento">Total de alimento consumido(kg):</label>
+            <input type="number" id="alimento" placeholder="Ingrese la cantidad de alimento">
+            <label for="pesoVivo">Peso vivo(en terminación) (kg):</label>
+            <input type="number" id="pesoVivo" placeholder="Ingrese el peso vivo en terminacion">
+            <label for="pesoEnCanal">Peso en canal (kg):</label>
+            <input type="number" id="pesoEnCanal" placeholder="Ingrese el peso en canal total">
+            <button onclick="calcularCAyRendimiento()">Calcular C.A y Rendimiento</button>
+            <div id="resultado">
+            </div>
+            <div id="leyendas">
+                <p><strong>Conversión Alimenticia (CA):</strong> Representa la proporción de alimento que se convierte en carne. Se calcula dividiendo la cantidad total de alimento entre el peso vivo vendido.</p>
+                <p><strong>Rendimiento a la Canal:</strong> Representa el porcentaje de carne obtenido del peso vivo. Se calcula automáticamente.</p>
+            </div>
+        </div>
+    </body>
+</html>
