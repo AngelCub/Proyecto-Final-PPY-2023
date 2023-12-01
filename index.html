@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Calculadora de Conversión Alimenticia y Rendimiento a la Canal</title>
+    </head>
+    <body>
+        <h1 id="titulo">Conversión Alimenticia</h1>
+        <div id="formulario">
+            <div id="inputs">
+                <div id="alimento">
+                <label for="alimento">Total de alimento consumido(kg):</label>
+                <br>
+                <input type="number" id="alimento" placeholder="Ingrese la cantidad de alimento">
+                </div>
+
+                <div id="peso">
+                    <label for="pesoVivo">Peso vivo(en terminación) (kg):</label>
+                    <br>
+                    <input type="number" id="pesoVivo" placeholder="Ingrese el peso vivo en terminacion">
+                </div>
+
+                <div id="canal">
+                    <label for="pesoEnCanal">Peso en canal (kg):</label>
+                    <br>
+                    <input type="number" id="pesoEnCanal" placeholder="Ingrese el peso en canal total">
+                </div>
+            </div>
+            <button id="btn" onclick="calcularCAyRendimiento()">Calcular C.A y Rendimiento</button>
+            <div id="resultado">
+                <h4>
+                    RESULTADO
+                </h4>
+            </div>
+            
+        </div>
+       <footer>
+            <div id="leyendas">
+                <p><strong>Conversión Alimenticia (CA):</strong> Representa la proporción de alimento que se convierte en carne. Se calcula dividiendo la cantidad total de alimento entre el peso vivo vendido.</p>
+                <p><strong>Rendimiento a la Canal:</strong> Representa el porcentaje de carne obtenido del peso vivo. Se calcula automáticamente.</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
