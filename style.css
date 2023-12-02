@@ -1,63 +1,75 @@
-
 body {
-    background-color: #87CEEB;
+    background-image: url(https://img.freepik.com/foto-gratis/rebano-vacas-pastan-pasto-al-atardecer-creado-tecnologia-ia-generativa_185193-110107.jpg?w=900&t=st=1701549953~exp=1701550553~hmac=dc02c5180ae837b05a7d86d3948ac7c2c9d0a0d4f5211060e3e3f4fcd44bb658);
+    background-color: rgb(246, 246, 246);
+    background-size:cover;
 }
-#formulario{
-   
-    
-    border-radius: 1px;
-    font-size: 25px;
-    text-align: center;
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#formulario {
+    font-size: 18px;
     line-height: 1;
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    padding: 15px;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: rgb(21, 204, 48 204, 44);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(222, 213, 213, 0.1);
+    transition: background-color 0.3s ease; 
 }
-#titulo{
 
+#formulario:hover {
+    background-color:rgba(210, 105, 30, 0.593);
+}
+
+#titulo {
     text-transform: uppercase;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
- 
+    font-size: 30px;
+    text-align:center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 
 select {
-
     width: 25%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input {
-  width: 25%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 25%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 8px 0;
+    font-family: Consolas;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
 }
-#conversional {
 
+input:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+#conversional,
+#pesocanal {
     visibility: hidden;
 }
-#pesocanal {
 
-visibility: hidden;
-
-}
 #btn {
     visibility: hidden;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-    0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 5px;
-    background-color: #dc392d; /* Green */
+    background-color: #171616;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -67,29 +79,21 @@ visibility: hidden;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-
+    transition: background-color 0.3s ease; 
 }
-#btn:hover{
 
-    border-radius: 5px;
-    background-color: #ff1100 ; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-
+#btn:hover {
+    background-color: #a52b22;
 }
+
 #leyendas {
-
     text-align: center;
-    
 }
-footer{
 
-    margin: 25px;
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align:center;
+
 }
